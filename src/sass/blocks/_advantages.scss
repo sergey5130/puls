@@ -29,5 +29,13 @@
             text-decoration: underline;
         }
     }
-
+    &__icon {
+        &_animated {
+            animation:heartdeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+            
+        }
+    }
 }
