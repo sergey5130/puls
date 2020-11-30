@@ -66,9 +66,13 @@
         }
     }   
 }
+
 @media (max-width: 767px) {
     .promo {
-       
+        &__icons {
+            width: auto;
+            margin: 20px auto 10px auto;
+            transform: none;
         }
         .header {
             font-style: 30px;
@@ -84,10 +88,10 @@
             img {
                 margin: 0 15px;
             }
+            
         }
     
     }
-
     .advantages {
         &__wrapper {
             flex-direction: column;
@@ -106,11 +110,20 @@
         }
     }
     footer {
+
         &__info {
             width: 463px;
             height: 211px;
             padding: 30px 38px 30px 38px;
         }
     } 
+}
+@media (max-width: 575px) {
+    .reviews {
+        &__icon { 
+           
+        }
+        
+    }
 }
 
